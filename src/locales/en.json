@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "hero": "Hero",
+    "ecosystem": "Ecosystem",
+    "builds": "Builds",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Engineered for Evolution",
+    "title": "Building {highlight} Evolution",
+    "highlight": "Algorithmic",
+    "description": "Full Stack Developer forging scalable architectures. Current student at {school}, merging computational theory with high-performance production builds.",
+    "school": "Universidad Politécnica de Aguascalientes",
+    "ctaExplore": "Explore Repository",
+    "ctaContact": "Contact Architect"
+  },
+  "ecosystem": {
+    "title": "The Tech {highlight}",
+    "highlight": "Ecosystem",
+    "description": "A curated selection of high-level abstractions and foundational languages used to construct resilient, evolutionary software. No bloated dependencies, just pure technical efficiency."
+  },
+  "builds": {
+    "badge": "Case Study // 001",
+    "title": "Featured Build",
+    "projectTitle": "Bio-Logix",
+    "projectDescription": "A high-performance Genetic Algorithm Simulator designed to visualize evolutionary trajectories in real-time. Built to process multi-variable populations with optimized compute cycles.",
+    "performance": "Performance",
+    "perGen": "/gen",
+    "population": "Population",
+    "entities": "entities",
+    "viewDemo": "Ver Demo"
+  },
+  "experience": {
+    "title": "Experience {highlight} Narrative",
+    "highlight": "&",
+    "description": "Bridging the gap between academic excellence and commercial implementation through strategic freelance and research-driven initiatives.",
+    "year": "2024",
+    "yearLabel": "Architectural Year",
+    "job1Title": "Freelance Full Stack Developer",
+    "job1Company": "Hotel Real del Gorrión",
+    "job1Date": "JAN 2023 — PRESENT",
+    "job1Description": "Architected an end-to-end reservation system and administrative dashboard. Implemented real-time booking updates and secure payment gateway integrations, reducing administrative overhead by 40%.",
+    "job2Title": "Lead Academic Researcher",
+    "job2Company": "Universidad Politécnica de Aguascalientes",
+    "job2Date": "AUG 2022 — DEC 2023",
+    "job2Description": "Developed internal tools for complex data analysis across engineering departments. Specialized in visualizing multifaceted datasets to assist in faculty research projects."
+  },
+  "contact": {
+    "title": "Initiate {highlight} Connection",
+    "highlight": "",
+    "description": "Ready to discuss systems architecture, full stack development, or algorithmic evolution. Use the terminal below to reach out.",
+    "emailLabel": "Email",
+    "email": "kinetic.eng@dev.io",
+    "networkLabel": "Network",
+    "network": "Aguascalientes, MX",
+    "formName": "Identifier",
+    "formNamePlaceholder": "Your Name",
+    "formEmail": "Endpoint",
+    "formEmailPlaceholder": "Email Address",
+    "formMessage": "Transmission",
+    "formMessagePlaceholder": "Brief your project or inquiry...",
+    "submit": "Deploy Message"
+  },
+  "footer": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "source": "Source",
+    "status": "Status",
+    "copyright": "© 2024 KINETIC_ENG // ALGORITHMIC_ARCHITECT"
+  }
+}
