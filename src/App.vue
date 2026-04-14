@@ -13,9 +13,9 @@ import FooterSection from './components/FooterSection.vue'
     <NavBar />
     <main>
       <HeroSection />
-      <EcosystemSection />
-      <BuildsSection />
       <ExperienceSection />
+      <BuildsSection />
+      <EcosystemSection />
       <ContactSection />
     </main>
     <FooterSection />
