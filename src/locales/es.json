@@ -1,24 +1,24 @@
 {
   "nav": {
-    "hero": "Hero",
+    "hero": "Inicio",
     "ecosystem": "Ecosistema",
     "builds": "Proyectos",
     "experience": "Experiencia",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "title": "Portafolio"
   },
   "hero": {
-    "badge": "Ingeniado para la Evolución",
-    "title": "Construyendo Evolución {highlight}",
-    "highlight": "Algorítmica",
-    "description": "Desarrollador Full Stack forjando arquitecturas escalables. Estudiante actual en {school}, fusionando teoría computacional con builds de producción de alto rendimiento.",
+    "badge": "Ingeniero en Sistemas Computacionales",
+    "title": "Sobre mi",
+    "description": "Soy un Desarrollador Full Stack con mentalidad orientada a soluciones. Me especializo en crear interfaces dinámicas con Vue y React, y backends robustos con Laravel. Mi experiencia incluye desde el desarrollo de componentes reutilizables y sistemas de internacionalización hasta la optimización de flujos de trabajo en proyectos de gestión. Mi objetivo es entregar código limpio, escalable y una experiencia de usuario excepcional.",
     "school": "Universidad Politécnica de Aguascalientes",
     "ctaExplore": "Explorar Repositorio",
-    "ctaContact": "Contactar Arquitecto"
+    "ctaContact": "Contactarme",
+    "name": "Francisco Javier Hermosillo Aguila"
   },
   "ecosystem": {
-    "title": "El Tech {highlight}",
-    "highlight": "Ecosistema",
-    "description": "Una selección curada de abstracciones de alto nivel y lenguajes fundamentales utilizados para construir software resiliente y evolutivo. Sin dependencias infladas, solo eficiencia técnica pura."
+    "title": "Mis {highlight} ",
+    "highlight": "Habilidades"
   },
   "builds": {
     "badge": "Caso de Estudio // 001",
@@ -67,6 +67,6 @@
     "linkedin": "LinkedIn",
     "source": "Código",
     "status": "Estado",
-    "copyright": "© 2024 KINETIC_ENG // ALGORITHMIC_ARCHITECT"
+    "copyright": "© 2026 KINETIC_ENG // ALGORITHMIC_ARCHITECT"
   }
 }

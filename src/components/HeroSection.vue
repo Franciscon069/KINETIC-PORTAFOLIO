@@ -1,7 +1,7 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
 </script>
 
 <template>
@@ -19,7 +19,7 @@ const { t } = useI18n()
         </div>
 
         <h1 class="font-headline text-5xl md:text-8xl font-bold tracking-tighter leading-[0.9] text-on-background mb-8">
-          {{ t('hero.title', { highlight: '' }) }}<span class="text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary">{{ t('hero.highlight') }}</span> {{ t('hero.title', { highlight: '' }).split('{highlight}')[1] }}
+          {{ t('hero.title') }}<template v-if="locale === 'es'">,<br /></template><template v-else>, </template><span class="text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary">{{ t('hero.name') }}</span>
         </h1>
 
         <p class="font-body text-lg md:text-xl text-on-surface-variant max-w-2xl mb-12 leading-relaxed">
@@ -38,24 +38,12 @@ const { t } = useI18n()
       </div>
 
       <div class="md:col-span-4 hidden md:block">
-        <div class="relative w-full aspect-square bg-surface-container rounded-xl overflow-hidden shadow-2xl">
-          <div class="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-60"></div>
+        <div class="relative w-full aspect-[3/4] bg-surface-container rounded-xl overflow-hidden shadow-2xl">
           <img 
-            class="w-full h-full object-cover grayscale brightness-75 contrast-125" 
-            alt="Abstract 3D rendered geometric structures"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGn0XwIgrb23KOH_YIS7u76Y-ToXn8Raxt8-Ns57hOVIFQM2XYAo-Kc7MJRUjkqPSVNQeteLhzkIqAdhpKPXPYWJu2P7we1YnHGiLzMzx17Mb7ItJk2hoTw81_E4oBEWOoiIQ-e5JeQyig8EL6HwJFtU7oBUOhZZbRxPlKbDEsdZh8wkkRcVU8He2ya1YMCIvtew5LpAjSRdMoBNqB0z1CB_yjC7fgkFncb8Ezuy_51xRoljsPBmrPgfpYXYCD8kdBi5PU_lbgIG0"
+            class="w-full h-full object-cover object-[center_20%]" 
+            alt="Foto perfil Francisco Javier Hermosillo Aguila"
+            src="../assets/images/FotoPersonal.jpeg"
           />
-          <div class="absolute bottom-6 left-6 right-6">
-            <div class="glass-card p-4 rounded-lg border border-outline-variant/10">
-              <div class="flex justify-between items-end">
-                <div>
-                  <p class="text-[10px] text-primary tracking-widest uppercase mb-1">Current Node</p>
-                  <p class="font-headline font-bold text-xl">UPA_SYSTEM_01</p>
-                </div>
-                <span class="material-symbols-outlined text-4xl text-primary/40">sensors</span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

@@ -1,24 +1,24 @@
 {
   "nav": {
-    "hero": "Hero",
+    "hero": "Home",
     "ecosystem": "Ecosystem",
     "builds": "Builds",
     "experience": "Experience",
-    "contact": "Contact"
+    "contact": "Contact",
+    "title": "Portfolio"
   },
   "hero": {
-    "badge": "Engineered for Evolution",
-    "title": "Building {highlight} Evolution",
-    "highlight": "Algorithmic",
-    "description": "Full Stack Developer forging scalable architectures. Current student at {school}, merging computational theory with high-performance production builds.",
+    "badge": "Computer Systems Engineer",
+    "title": "About me",
+    "description": "I am a Full Stack Developer with a solution-oriented mindset. I specialize in creating dynamic interfaces with Vue and React, and robust backends with Laravel. My experience ranges from developing reusable components and internationalization systems to optimizing workflows in management projects. My goal is to deliver clean, scalable code and an exceptional user experience.",
     "school": "Universidad Politécnica de Aguascalientes",
     "ctaExplore": "Explore Repository",
-    "ctaContact": "Contact Architect"
+    "ctaContact": "Contact Me",
+    "name": "Francisco Javier Hermosillo Aguila"
   },
   "ecosystem": {
-    "title": "The Tech {highlight}",
-    "highlight": "Ecosystem",
-    "description": "A curated selection of high-level abstractions and foundational languages used to construct resilient, evolutionary software. No bloated dependencies, just pure technical efficiency."
+    "title": "My {highlight} ",
+    "highlight": "Skills"
   },
   "builds": {
     "badge": "Case Study // 001",
@@ -29,13 +29,13 @@
     "perGen": "/gen",
     "population": "Population",
     "entities": "entities",
-    "viewDemo": "Ver Demo"
+    "viewDemo": "View Demo"
   },
   "experience": {
     "title": "Experience {highlight} Narrative",
     "highlight": "&",
     "description": "Bridging the gap between academic excellence and commercial implementation through strategic freelance and research-driven initiatives.",
-    "year": "2024",
+    "year": "2026",
     "yearLabel": "Architectural Year",
     "job1Title": "Freelance Full Stack Developer",
     "job1Company": "Hotel Real del Gorrión",
@@ -67,6 +67,6 @@
     "linkedin": "LinkedIn",
     "source": "Source",
     "status": "Status",
-    "copyright": "© 2024 KINETIC_ENG // ALGORITHMIC_ARCHITECT"
+    "copyright": "© 2026 KINETIC_ENG // ALGORITHMIC_ARCHITECT"
   }
 }

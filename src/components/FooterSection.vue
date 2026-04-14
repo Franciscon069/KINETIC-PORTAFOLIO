@@ -7,7 +7,7 @@ const { t } = useI18n()
 <template>
   <footer class="w-full py-12 border-t border-cyan-900/10 bg-surface-dim">
     <div class="flex flex-col md:flex-row justify-between items-center px-8 max-w-screen-xl mx-auto gap-8">
-      <div class="text-primary font-black text-xl tracking-tighter">KINETIC_ENG</div>
+      <div class="text-primary font-black text-xl tracking-tighter">{{ t('nav.title') }}</div>
 
       <div class="flex gap-8">
         <a class="font-label text-xs uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">{{ t('footer.github') }}</a>

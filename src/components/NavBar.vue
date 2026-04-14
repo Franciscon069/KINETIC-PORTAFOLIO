@@ -31,9 +31,9 @@ const setLanguage = (lang) => {
 </script>
 
 <template>
-  <nav class="fixed top-0 w-full z-50 bg-surface/40 backdrop-blur-xl shadow-glow-cyan">
+  <nav class="fixed top-0 w-full z-50 bg-surface/40 backdrop-blur-xl glow-cyan">
     <div class="flex justify-between items-center px-8 py-4 max-w-screen-xl mx-auto">
-      <div class="text-2xl font-bold tracking-tighter text-primary font-headline">KINETIC_ENG</div>
+      <div class="text-2xl font-bold tracking-tighter text-primary font-headline">{{ t('nav.title') }}</div>
 
       <div class="hidden md:flex gap-8 items-center">
         <a
