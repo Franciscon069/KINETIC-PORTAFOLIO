@@ -32,26 +32,29 @@
     "viewDemo": "View Demo"
   },
   "experience": {
-    "title": "Experience {highlight} Narrative",
-    "highlight": "&",
+    "title": "Work Experience",
     "description": "Bridging the gap between academic excellence and commercial implementation through strategic freelance and research-driven initiatives.",
-    "year": "2026",
+    "year": "2024",
     "yearLabel": "Architectural Year",
-    "job1Title": "Freelance Full Stack Developer",
+    "job1Title": "Full Stack Developer",
     "job1Company": "Hotel Real del Gorrión",
-    "job1Date": "JAN 2023 — PRESENT",
+    "job1Date": "JAN 2024 — DEC 2024",
     "job1Description": "Architected an end-to-end reservation system and administrative dashboard. Implemented real-time booking updates and secure payment gateway integrations, reducing administrative overhead by 40%.",
     "job2Title": "Lead Academic Researcher",
     "job2Company": "Universidad Politécnica de Aguascalientes",
-    "job2Date": "AUG 2022 — DEC 2023",
-    "job2Description": "Developed internal tools for complex data analysis across engineering departments. Specialized in visualizing multifaceted datasets to assist in faculty research projects."
+    "job2Date": "AUG 2022 — FEB 2023",
+    "job2Description": "Developed internal tools for complex data analysis across engineering departments. Specialized in visualizing multifaceted datasets to assist in faculty research projects.",
+    "job3Title": "Full Stack Developer",
+    "job3Company": "CCEO",
+    "job3Date": "FEB 2026 — PRESENT",
+    "job3Description": "Developed internal tools for complex data analysis across engineering departments. Specialized in visualizing multifaceted datasets to assist in faculty research projects."
   },
   "contact": {
     "title": "Initiate {highlight} Connection",
     "highlight": "",
     "description": "Ready to discuss systems architecture, full stack development, or algorithmic evolution. Use the terminal below to reach out.",
     "emailLabel": "Email",
-    "email": "kinetic.eng{'@'}dev.io",
+    "email": "jvasillo300{'@'}gmail.com",
     "networkLabel": "Network",
     "network": "Aguascalientes, MX",
     "formName": "Identifier",
@@ -67,6 +70,6 @@
     "linkedin": "LinkedIn",
     "source": "Source",
     "status": "Status",
-    "copyright": "© 2026 KINETIC_ENG // ALGORITHMIC_ARCHITECT"
+    "copyright": "© 2026 Portfolio // Francisco Javier Hermosillo Aguila"
   }
 }

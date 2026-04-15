@@ -32,26 +32,29 @@
     "viewDemo": "Ver Demo"
   },
   "experience": {
-    "title": "Experiencia {highlight} Narrativa",
-    "highlight": "&",
+    "title": "Experiencia Laboral",
     "description": "Conectando la brecha entre la excelencia académica y la implementación comercial a través de iniciativas estratégicas freelance e investigación.",
     "year": "2024",
-    "yearLabel": "Año Arquitectural",
-    "job1Title": "Desarrollador Full Stack Freelance",
+    "yearLabel": "Año Arquitectual",
+    "job1Title": "Desarrollador Full Stack",
     "job1Company": "Hotel Real del Gorrión",
-    "job1Date": "ENE 2023 — PRESENTE",
+    "job1Date": "ENE 2024 — DEC 2024",
     "job1Description": "Arquitecturé un sistema de reservas integral y panel administrativo. Implementé actualizaciones de reservas en tiempo real e integraciones de pago seguras, reduciendo la carga administrativa en un 40%.",
     "job2Title": "Investigador Académico Principal",
     "job2Company": "Universidad Politécnica de Aguascalientes",
-    "job2Date": "AGO 2022 — DIC 2023",
-    "job2Description": "Desarrollé herramientas internas para análisis de datos complejos en departamentos de ingeniería. Especializado en visualizar conjuntos de datos multifacéticos para asistir en proyectos de investigación docente."
+    "job2Date": "AGO 2022 — FEB 2023",
+    "job2Description": "Desarrollé herramientas internas para análisis de datos complejos en departamentos de ingeniería. Especializado en visualizar conjuntos de datos multifacéticos para asistir en proyectos de investigación docente.",
+    "job3Title": "Desarrollador Full Stack",
+    "job3Company": "CCEO",
+    "job3Date": "FEB 2026 — PRESENTE",
+    "job3Description": "Desarrollé herramientas internas para análisis de datos complejos en departamentos de ingeniería. Especializado en visualizar conjuntos de datos multifacéticos para asistir en proyectos de investigación docente."
   },
   "contact": {
     "title": "Iniciar {highlight} Conexión",
     "highlight": "",
     "description": "Listo para discutir arquitectura de sistemas, desarrollo full stack o evolución algorítmica. Usa la terminal abaixo para contactarme.",
     "emailLabel": "Email",
-    "email": "kinetic.eng{'@'}dev.io",
+    "email": "jvasillo300{'@'}gmail.com",
     "networkLabel": "Red",
     "network": "Aguascalientes, MX",
     "formName": "Identificador",
@@ -67,6 +70,6 @@
     "linkedin": "LinkedIn",
     "source": "Código",
     "status": "Estado",
-    "copyright": "© 2026 KINETIC_ENG // ALGORITHMIC_ARCHITECT"
+    "copyright": "© 2026 Portafolio // Francisco Javier Hermosillo Aguila"
   }
 }
