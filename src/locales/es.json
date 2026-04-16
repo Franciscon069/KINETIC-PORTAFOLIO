@@ -1,7 +1,7 @@
 {
   "nav": {
     "hero": "Inicio",
-    "ecosystem": "Ecosistema",
+    "ecosystem": "Habilidades",
     "builds": "Proyectos",
     "experience": "Experiencia",
     "contact": "Contacto",
@@ -9,7 +9,7 @@
   },
   "hero": {
     "badge": "Ingeniero en Sistemas Computacionales",
-    "title": "Sobre mi",
+    "title": "Acerca de mí",
     "description": "Soy un Desarrollador Full Stack con mentalidad orientada a soluciones. Me especializo en crear interfaces dinámicas con Vue y React, y backends robustos con Laravel. Mi experiencia incluye desde el desarrollo de componentes reutilizables y sistemas de internacionalización hasta la optimización de flujos de trabajo en proyectos de gestión. Mi objetivo es entregar código limpio, escalable y una experiencia de usuario excepcional.",
     "school": "Universidad Politécnica de Aguascalientes",
     "ctaExplore": "Explorar Repositorio",
@@ -56,7 +56,7 @@
     "emailLabel": "Email",
     "email": "jvasillo300{'@'}gmail.com",
     "networkLabel": "Red",
-    "network": "Aguascalientes, MX",
+    "network": "Aguascalientes, México",
     "formName": "Identificador",
     "formNamePlaceholder": "Tu Nombre",
     "formEmail": "Endpoint",
@@ -68,8 +68,7 @@
   "footer": {
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "source": "Código",
-    "status": "Estado",
+    "computrabajo": "Computrabajo",
     "copyright": "© 2026 Portafolio // Francisco Javier Hermosillo Aguila"
   }
 }

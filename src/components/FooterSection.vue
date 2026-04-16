@@ -10,10 +10,9 @@ const { t } = useI18n()
       <div class="text-primary font-black text-xl tracking-tighter">{{ t('nav.title') }}</div>
 
       <div class="flex gap-8">
-        <a class="font-label text-xs uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">{{ t('footer.github') }}</a>
-        <a class="font-label text-xs uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">{{ t('footer.linkedin') }}</a>
-        <a class="font-label text-xs uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">{{ t('footer.source') }}</a>
-        <a class="font-label text-xs uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">{{ t('footer.status') }}</a>
+        <a class="font-label text-xs uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="https://github.com/Franciscon069">{{ t('footer.github') }}</a>
+        <a class="font-label text-xs uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BHyFmu9XXTN6kLeQaZVSgmA%3D%3D">{{ t('footer.linkedin') }}</a>
+        <a class="font-label text-xs uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">{{ t('footer.computrabajo') }}</a>
       </div>
 
       <p class="font-label text-xs uppercase tracking-widest text-on-surface-variant">
