@@ -11,6 +11,7 @@
   "dependencies": {
     "@_davideast/stitch-mcp": "^0.5.3",
     "@anthropic-ai/sdk": "^0.82.0",
+    "@emailjs/browser": "^4.4.1",
     "pinia": "^3.0.4",
     "vue": "^3.5.30",
     "vue-i18n": "^9.14.5",
