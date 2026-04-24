@@ -60,13 +60,15 @@
     "formName": "Compilador / Nombre",
     "formNamePlaceholder": "Introduce tu nombre...",
     "formEmail": "Endpoint / Email",
-    "formEmailPlaceholder": "usuario@ejemplo.com",
+    "formEmailPlaceholder": "usuario{'@'}ejemplo.com",
     "formMessage": "Transmisión / Mensaje",
     "formMessagePlaceholder": "Describe tu proyecto o consulta...",
     "submit": "Desplegar Mensaje",
     "sending": "Transmitiendo...",
     "formSuccess": "Mensaje enviado exitosamente. ¡Conexión establecida!",
-    "formError": "Error en la transmisión. Por favor, inténtalo de nuevo."
+    "formError": "Error en la transmisión. Por favor, inténtalo de nuevo.",
+    "statusLabel": "Estado",
+    "statusValue": "Disponible para proyectos"
   },
   "footer": {
     "github": "GitHub",

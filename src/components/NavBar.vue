@@ -98,41 +98,44 @@ const setLanguage = (lang) => {
 
     <div 
       :class="[
-        'md:hidden overflow-hidden transition-all duration-300 ease-in-out',
-        isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+        'md:hidden overflow-hidden transition-all duration-500 ease-in-out bg-surface-container/95 backdrop-blur-2xl border-t border-outline-variant/10',
+        isMenuOpen ? 'max-h-[80vh] opacity-100' : 'max-h-0 opacity-0'
       ]"
     >
-      <div class="px-8 py-4 bg-surface-container border-t border-outline-variant/10">
-        <div class="flex flex-col gap-4">
+      <div class="px-8 py-8 flex flex-col gap-6">
+        <div class="flex flex-col gap-2">
           <a
             v-for="link in navLinks"
             :key="link.href"
             :href="link.href"
             :class="[
-              'font-headline tracking-tighter transition-colors py-2',
+              'font-headline text-xl tracking-tighter transition-all py-3 px-4 rounded-xl flex items-center justify-between group',
               activeSection === link.href.replace('#', '')
-                ? 'text-primary font-bold'
-                : 'text-on-surface-variant font-medium hover:text-primary/80'
+                ? 'text-primary font-bold bg-primary/10'
+                : 'text-on-surface-variant font-medium hover:text-primary hover:bg-primary/5'
             ]"
             @click="handleNavClick(link.href)"
           >
             {{ link.label }}
+            <span class="material-symbols-outlined opacity-0 group-hover:opacity-100 transition-opacity text-sm">arrow_forward</span>
           </a>
         </div>
-        <div class="flex gap-2 items-center mt-4 pt-4 border-t border-outline-variant/10">
-          <button 
-            @click="setLanguage('en')"
-            :class="['px-2 py-1 text-sm font-bold transition-all border-b-2 flex items-baseline gap-1', locale === 'en' ? 'text-primary border-primary' : 'text-on-surface-variant border-transparent hover:text-primary/80']"
-          >
-            EN <span class="text-[0.65rem] font-medium opacity-70">US</span>
-          </button>
-          <span class="text-on-surface-variant/50 text-sm">|</span>
-          <button 
-            @click="setLanguage('es')"
-            :class="['px-2 py-1 text-sm font-bold transition-all border-b-2 flex items-baseline gap-1', locale === 'es' ? 'text-primary border-primary' : 'text-on-surface-variant border-transparent hover:text-primary/80']"
-          >
-            ES <span class="text-[0.65rem] font-medium opacity-70">Mx</span>
-          </button>
+        
+        <div class="flex gap-4 items-center mt-4 pt-6 border-t border-outline-variant/10">
+          <div class="flex gap-1 bg-surface-container-highest p-1 rounded-lg">
+            <button 
+              @click="setLanguage('en')"
+              :class="['px-4 py-2 text-xs font-black transition-all rounded-md', locale === 'en' ? 'bg-primary text-on-primary-fixed shadow-lg' : 'text-on-surface-variant hover:text-primary']"
+            >
+              EN
+            </button>
+            <button 
+              @click="setLanguage('es')"
+              :class="['px-4 py-2 text-xs font-black transition-all rounded-md', locale === 'es' ? 'bg-primary text-on-primary-fixed shadow-lg' : 'text-on-surface-variant hover:text-primary']"
+            >
+              ES
+            </button>
+          </div>
         </div>
       </div>
     </div>
